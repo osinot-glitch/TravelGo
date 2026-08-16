@@ -49,7 +49,7 @@ header a{
   font-size: 22px;
 }
 .hero{
-  background-image: url("/images23/photo-1642922835816-e2ac68db5c42.avif");
+  background-image: url("photo-1642922835816-e2ac68db5c42.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

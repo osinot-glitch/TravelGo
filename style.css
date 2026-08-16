@@ -143,7 +143,7 @@ span{
   gap: 200px;
 }
 .div4{
-    background-image: url("/images23/BURJ-KHALIFA-GALLERY4-1.webp");
+    background-image: url("BURJ-KHALIFA-GALLERY4-1.webp");
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,7 +224,7 @@ footer p{
     padding-left: 190px;
 }
 .tourimg{
-    background-image: url("images23/б2с-24-1280x559.jpg");
+    background-image: url("б2с-24-1280x559.jpg");
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

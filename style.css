@@ -42,7 +42,8 @@ header a{
   font-size: 23px;
 }
 .nav {
-   gap: 10px;
+     display: flex;
+     gap: 50px;
 }
 .nav{
    padding-top: 30px;
@@ -130,6 +131,7 @@ span{
 }
 .main1{
   display: flex;
+  flex-wrap: wrap;
   text-align: center;
   font-size: 19px;
   justify-content:center ;

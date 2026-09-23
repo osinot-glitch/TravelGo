@@ -1,7 +1,9 @@
 header{
   display: flex;
-  justify-content: center;
-  gap: 15px;
+  justify-content: space-between; 
+  gap: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 body{
     font-family: "Nunito", sans-serif;
@@ -20,7 +22,6 @@ header button{
   margin-top: 30px;
   padding: 9px 35px;
  border-radius: 5px;
-  margin-left: 200px;
   border: none;
     font-size: 16px;
   font-weight: bold;
@@ -34,22 +35,21 @@ header button:hover{
 }
 header h2{
   margin-top: 0;
-  margin-right: 200px;
   color: black;
 }
 header a{
   padding-top: 30px;
   font-size: 23px;
 }
-.div2 a{
-  margin-right: 70px;  
+.nav {
+   gap: 10px;
 }
-.div2{
+.nav{
    padding-top: 30px;
   font-size: 22px;
 }
 .hero{
-  background-image: url("photo-1642922835816-e2ac68db5c42.avif");
+  background-image: url("/images23/photo-1642922835816-e2ac68db5c42.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -143,7 +143,7 @@ span{
   gap: 200px;
 }
 .div4{
-    background-image: url("BURJ-KHALIFA-GALLERY4-1.webp");
+    background-image: url("/images23/BURJ-KHALIFA-GALLERY4-1.webp");
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,6 +200,7 @@ span{
 
 footer{
     display: flex;
+    justify-content: center;
     gap: 190px;
     background-color: rgb(10, 50, 88);
     color: white;
@@ -224,7 +225,7 @@ footer p{
     padding-left: 190px;
 }
 .tourimg{
-    background-image: url("б2с-24-1280x559.jpg");
+    background-image: url("images23/б2с-24-1280x559.jpg");
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -373,4 +374,91 @@ input:focus{
 .main9 img{
     border-radius: 30px;
      margin-top: 35px;
+}
+@media(max-width:390px){
+      header{
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
+        padding: 0;
+        padding-top: 0;
+      }
+      body{
+        font-size: 18px;
+      }
+      .hero{
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+      }
+      .hero button{
+         font-size: 15px;
+      }
+      .nav{
+        display: none;
+      }
+      header button{
+        display: none;
+      }
+      .main1{
+        flex-wrap: wrap;
+      }
+      .card{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        gap: 5px;
+        text-align: center;
+      }
+      .div4{
+        margin: 0;
+      }
+      .people{
+        flex-wrap: wrap;
+        margin: 10px;
+        justify-content: center;
+        padding: 0;
+        align-items: center;
+        gap: 8px;
+      }
+      .per{
+        margin: 0;
+        padding: 10px;
+      }
+      footer{
+        flex-direction: column;
+        margin: 0;
+        padding: 10px;
+        text-align: left;
+        padding-top: 0;
+        gap: 5px;
+      }
+      .div5{
+        text-align: left;
+        padding: 10px;
+      }
+      .people div{
+        margin-left: 0;
+      }
+}
+@media (max-width: 767px){
+  body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+  }
+  header{
+    flex-direction: column;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+  }
+  .main1{
+   margin: 0;
+   padding: 10px;
+   justify-content: center;
+
+  }
+  .main1 
 }
